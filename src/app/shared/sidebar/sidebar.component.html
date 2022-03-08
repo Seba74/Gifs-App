@@ -1,0 +1,9 @@
+<nav class="side-bar">
+    <div class="title">
+        <h1>Gifs App</h1>
+        <hr>
+    </div>
+    <div class="dashboard">
+        <a *ngFor="let item of historial" (click)="buscar(item)" > {{item | titlecase}} </a>
+    </div>
+</nav>

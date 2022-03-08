@@ -1,0 +1,16 @@
+$main-color: #1b1b1b;
+$white: #fff;
+$hover-white: #f0f0f0;
+
+
+.section-buscar {
+    display: flex;
+    width: 100%;
+    margin: 12px 30px 0 30px;
+    .main-row {
+        width: 100%;
+        .col{
+            width: 100%;
+        }
+    }
+}

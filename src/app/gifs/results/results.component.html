@@ -1,0 +1,5 @@
+<div class="row">
+        <div class="card animate__animated animate__fadeIn" *ngFor="let gif of results">
+        <img [src]="gif.images.downsized_medium.url" [alt]="gif.title">
+    </div>
+</div>

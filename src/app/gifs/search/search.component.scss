@@ -1,0 +1,22 @@
+$main-color: #1b1b1b;
+$white: #fff;
+$hover-white: #f0f0f0;
+
+h3 {
+    font-size: 2.4rem;
+    margin-bottom: 5px;
+}
+input {
+    height: 30px;
+    min-width: 220px;
+    width: 100%;    
+    padding-left: 5px;
+    border: none;
+    outline: none;
+    border: 1px solid $main-color;
+    border-radius: 10px;
+}
+hr {
+    margin-top: 10px;
+    border-radius: 20px;
+}
